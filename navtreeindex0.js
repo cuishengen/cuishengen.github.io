@@ -1,6 +1,6 @@
 var NAVTREEINDEX0 =
 {
-"../../../doc/JM_MCU产品手册__20161130.pdf":[6,1],
+"./doc/JM_MCU产品手册__20161130.pdf":[6,1],
 "@ref Toolchain":[1,0],
 "[none]":[6,2],
 "demo_adc_polling_8c-example.html":[8,0],

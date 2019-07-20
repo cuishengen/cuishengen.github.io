@@ -34,7 +34,7 @@ var menudata={children:[
 {text:"Hello AB535x SDK",url:"md__f_1_github_websitte__cui_s_v_n_zxl_dox_sdk_update__a_b535x__s_d_k.html#Hello_ab535x"},
 {text:"应用笔记",url:"usergroup1.html",children:[
 {text:"串口",url:"http://www.baidu.com"},
-{text:"ExSPI Flash",url:"../../../doc/JM_MCU产品手册__20161130.pdf"},
+{text:"ExSPI Flash",url:"./doc/JM_MCU产品手册__20161130.pdf"},
 {text:"定时器",url:"[none]"}]},
 {text:"AB53xx API手册",url:"modules.html"},
 {text:"示例",url:"examples.html"}]}

@@ -41,7 +41,7 @@ var NAVTREE =
     [ "Hello AB535x SDK", "md__f_1_github_websitte__cui_s_v_n_zxl_dox_sdk_update__a_b535x__s_d_k.html#Hello_ab535x", null ],
     [ "应用笔记", "usergroup1.html", [
       [ "串口", "^http://www.baidu.com", null ],
-      [ "ExSPI Flash", "../../../doc/JM_MCU产品手册__20161130.pdf", null ],
+      [ "ExSPI Flash", "./doc/JM_MCU产品手册__20161130.pdf", null ],
       [ "定时器", "[none]", null ]
     ] ],
     [ "AB53xx API手册", "modules.html", "modules" ],
@@ -51,7 +51,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"../../../doc/JM_MCU产品手册__20161130.pdf"
+"./doc/JM_MCU产品手册__20161130.pdf"
 ];
 
 var SYNCONMSG = '点击 关闭 面板同步';
