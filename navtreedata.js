@@ -1,12 +1,58 @@
+/*
+@ @licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2017 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
-  [ "ZXL Aplication Engineer", "index.html", ]
+  [ "ZXL Engineering Technology Center", "index.html", [
+    [ "首页", "index.html", [
+      [ "JM602简介", "index.html#sec_introduction", null ],
+      [ "功能框图", "index.html#system_diagram", null ],
+      [ "模块", "index.html#sec_modules", null ]
+    ] ],
+    [ "环境搭建及工具更新", "usergroup0.html", [
+      [ "开发环境", "@ref Toolchain", null ],
+      [ "Downloader", "_downloader.html", null ],
+      [ "Equalizer", "@ref Equalizer", null ],
+      [ "测试盒固件", "tsbox.html", null ]
+    ] ],
+    [ "Hello AB530x SDK", "_hello_ab530x.html", null ],
+    [ "Hello AB532x SDK", "_hello_ab532x.html", null ],
+    [ "Hello AB533x SDK", "@ref Hello_ab533x", null ],
+    [ "Hello AB535x SDK", "@ref Hello_ab535x", null ],
+    [ "应用笔记", "usergroup1.html", [
+      [ "串口", "^http://www.baidu.com", null ],
+      [ "ExSPI Flash", "../../../doc/JM_MCU产品手册__20161130.pdf", null ],
+      [ "定时器", "[none]", null ]
+    ] ],
+    [ "AB53xx API手册", "modules.html", "modules" ],
+    [ "示例", "examples.html", "examples" ]
+  ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"index.html"
+"../../../doc/JM_MCU产品手册__20161130.pdf"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = '点击 关闭 面板同步';
+var SYNCOFFMSG = '点击 开启 面板同步';

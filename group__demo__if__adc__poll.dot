@@ -1,0 +1,9 @@
+digraph "demo_adc_poll"
+{
+  edge [fontname="黑体",fontsize="10",labelfontname="黑体",labelfontsize="10"];
+  node [fontname="黑体",fontsize="10",shape=box];
+  rankdir=LR;
+  Node1 [label="ADC",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__mwv__demo__adc__all.html",tooltip="ADC相关例程"];
+  Node0 [label="demo_adc_poll",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+}

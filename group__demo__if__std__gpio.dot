@@ -1,0 +1,9 @@
+digraph "std_gpio"
+{
+  edge [fontname="黑体",fontsize="10",labelfontname="黑体",labelfontsize="10"];
+  node [fontname="黑体",fontsize="10",shape=box];
+  rankdir=LR;
+  Node0 [label="std_gpio",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 [label="通用输入输出(GPIO)",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__am__demo__gpio__all.html",tooltip="GPIO相关例程"];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+}
