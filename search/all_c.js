@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['看门狗_28wdt_29',['看门狗(WDT)',['../group__am__demo__wwdt__all.html',1,'']]],
-  ['电子密码本',['电子密码本',['../group__mwv__if__ecb.html',1,'']]],
-  ['看门狗',['看门狗',['../group__mwv__if__wdt.html',1,'']]]
+  ['串行外设接口_28spi_29',['串行外设接口(SPI)',['../group__am__demo__spi__all.html',1,'']]],
+  ['串口_28uart_29',['串口(UART)',['../group__mwv__demo__uart__all.html',1,'']]],
+  ['例程',['例程',['../group__mwv__service__demo__device.html',1,'']]]
 ];

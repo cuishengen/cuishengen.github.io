@@ -31,14 +31,14 @@ var NAVTREE =
     ] ],
     [ "环境搭建及工具更新", "usergroup0.html", [
       [ "开发环境", "@ref Toolchain", null ],
-      [ "Downloader", "_downloader.html", null ],
-      [ "Equalizer", "@ref Equalizer", null ],
-      [ "测试盒固件", "tsbox.html", null ]
+      [ "Downloader", "md__f_1_github_websitte__cui_s_v_n_zxl_dox_getting_started__downloader.html#Downloader", null ],
+      [ "Equalizer", "md__f_1_github_websitte__cui_s_v_n_zxl_dox_getting_started__equalizer.html#Equalizer", null ],
+      [ "测试盒固件", "md__f_1_github_websitte__cui_s_v_n_zxl_dox_getting_started_tsbox_update.html#tsbox", null ]
     ] ],
-    [ "Hello AB530x SDK", "_hello_ab530x.html", null ],
-    [ "Hello AB532x SDK", "_hello_ab532x.html", null ],
-    [ "Hello AB533x SDK", "@ref Hello_ab533x", null ],
-    [ "Hello AB535x SDK", "@ref Hello_ab535x", null ],
+    [ "Hello AB530x SDK", "md__f_1_github_websitte__cui_s_v_n_zxl_dox_sdk_update__a_b530x__s_d_k.html#Hello_ab530x", null ],
+    [ "Hello AB532x SDK", "md__f_1_github_websitte__cui_s_v_n_zxl_dox_sdk_update__a_b532x__s_d_k.html#Hello_ab532x", null ],
+    [ "Hello AB533x SDK", "md__f_1_github_websitte__cui_s_v_n_zxl_dox_sdk_update__a_b533x__s_d_k.html#Hello_ab533x", null ],
+    [ "Hello AB535x SDK", "md__f_1_github_websitte__cui_s_v_n_zxl_dox_sdk_update__a_b535x__s_d_k.html#Hello_ab535x", null ],
     [ "应用笔记", "usergroup1.html", [
       [ "串口", "^http://www.baidu.com", null ],
       [ "ExSPI Flash", "../../../doc/JM_MCU产品手册__20161130.pdf", null ],
