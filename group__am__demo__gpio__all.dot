@@ -1,0 +1,13 @@
+digraph "通用输入输出(GPIO)"
+{
+  edge [fontname="黑体",fontsize="10",labelfontname="黑体",labelfontsize="10"];
+  node [fontname="黑体",fontsize="10",shape=record];
+  rankdir=LR;
+  Node2 [label="std_gpio",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__demo__if__std__gpio.html"];
+  Node0 [label="通用输入输出\l(GPIO)",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="例程",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__mwv__service__demo__device.html",tooltip="提供外设使用例程，例如SPI、I2C，UART "];
+  Node3 [label="std_gpio_trigger",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__demo__if__std__gpio__trigger.html"];
+  Node1->Node0 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node2 [shape=plaintext, dir="back", style="solid"];
+  Node0->Node3 [shape=plaintext, dir="back", style="solid"];
+}
