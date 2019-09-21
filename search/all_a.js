@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['uart_200',['UART 0',['../group__mwv__if__uart.html',1,'']]],
-  ['uart_201_2f2_2f3',['UART 1/2/3',['../group__mwv__if__uart__ex.html',1,'']]]
+  ['tsbox_5fupdate',['tsbox_update',['../md__e_1_svn_local__github_io_dox_getting_started_tsbox_update.html',1,'']]]
 ];
