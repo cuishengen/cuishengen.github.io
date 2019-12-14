@@ -1,9 +1,9 @@
 digraph "demo_uart_polling"
 {
   edge [fontname="黑体",fontsize="10",labelfontname="黑体",labelfontsize="10"];
-  node [fontname="黑体",fontsize="10",shape=record];
+  node [fontname="黑体",fontsize="10",shape=box];
   rankdir=LR;
-  Node1 [label="串口(UART)",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__mwv__demo__uart__all.html",tooltip="所有的串口通信相关例程 "];
-  Node0 [label="demo_uart_polling",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="串口(UART)",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__mwv__demo__uart__all.html",tooltip="所有的串口通信相关例程"];
+  Node0 [label="demo_uart_polling",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
   Node1->Node0 [shape=plaintext, dir="back", style="solid"];
 }

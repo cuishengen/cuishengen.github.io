@@ -1,9 +1,9 @@
 digraph "定时器定时模式"
 {
   edge [fontname="黑体",fontsize="10",labelfontname="黑体",labelfontsize="10"];
-  node [fontname="黑体",fontsize="10",shape=record];
+  node [fontname="黑体",fontsize="10",shape=box];
   rankdir=LR;
-  Node1 [label="定时器(Timer)",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__am__demo__timer__all.html",tooltip="所有的定时器相关例程 "];
-  Node0 [label="定时器定时模式",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 [label="定时器(Timer)",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__am__demo__timer__all.html",tooltip="所有的定时器相关例程"];
+  Node0 [label="定时器定时模式",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
   Node1->Node0 [shape=plaintext, dir="back", style="solid"];
 }
