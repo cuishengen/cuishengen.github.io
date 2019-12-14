@@ -1,7 +1,6 @@
 digraph "图例"
 {
  // INTERACTIVE_SVG=YES
- // LATEX_PDF_SIZE
   edge [fontname="黑体",fontsize="10",labelfontname="黑体",labelfontsize="10"];
   node [fontname="黑体",fontsize="10",shape=record];
   Node9 [shape="box",label="Inherited",fontsize="10",height=0.2,width=0.4,fontname="黑体",fillcolor="grey75",style="filled" fontcolor="black"];

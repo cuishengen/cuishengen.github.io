@@ -1,11 +1,11 @@
 digraph "实时时钟(RTC)"
 {
   edge [fontname="黑体",fontsize="10",labelfontname="黑体",labelfontsize="10"];
-  node [fontname="黑体",fontsize="10",shape=box];
+  node [fontname="黑体",fontsize="10",shape=record];
   rankdir=LR;
-  Node0 [label="实时时钟(RTC)",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="所有的RTC实时时钟相关例程"];
-  Node2 [label="rtc匹配",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__demo__if__rtc.html",tooltip=" "];
-  Node1 [label="例程",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__mwv__service__demo__device.html",tooltip="提供外设使用例程，例如SPI、I2C，UART"];
+  Node0 [label="实时时钟(RTC)",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 [label="rtc匹配",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__demo__if__rtc.html"];
+  Node1 [label="例程",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__mwv__service__demo__device.html",tooltip="提供外设使用例程，例如SPI、I2C，UART "];
   Node1->Node0 [shape=plaintext, dir="back", style="solid"];
   Node0->Node2 [shape=plaintext, dir="back", style="solid"];
 }

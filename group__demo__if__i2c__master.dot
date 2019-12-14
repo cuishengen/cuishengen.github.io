@@ -1,9 +1,9 @@
 digraph "i2c_master"
 {
   edge [fontname="黑体",fontsize="10",labelfontname="黑体",labelfontsize="10"];
-  node [fontname="黑体",fontsize="10",shape=box];
+  node [fontname="黑体",fontsize="10",shape=record];
   rankdir=LR;
-  Node1 [label="I2C总线控制器(I2C)",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__am__demo__i2c__all.html",tooltip="所有的I2C总线控制器相关例程"];
-  Node0 [label="i2c_master",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node1 [label="I2C总线控制器(I2C)",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__am__demo__i2c__all.html",tooltip="所有的I2C总线控制器相关例程 "];
+  Node0 [label="i2c_master",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1->Node0 [shape=plaintext, dir="back", style="solid"];
 }
